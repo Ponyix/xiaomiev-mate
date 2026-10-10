@@ -81,8 +81,8 @@ curl -fSsL 'https://www.xiaomievmate.com/scripts/install.sh' | sudo bash
 需要通过 `docker-compose.yml` 控制端口、目录或镜像版本时，可以使用仓库部署脚本：
 
 ```bash
-git clone git@github.com:Ponyix/xiaomiev-mate-public.git
-cd xiaomiev-mate-public
+git clone git@github.com:Ponyix/xiaomiev-mate.git
+cd xiaomiev-mate
 cp .env.example .env
 chmod +x deploy.sh
 ./deploy.sh
